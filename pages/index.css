@@ -7,4 +7,6 @@
 }
 .serif-text{
     font-family: "noto serif", 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 400;
 }
