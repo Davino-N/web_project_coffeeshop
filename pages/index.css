@@ -1,18 +1,8 @@
 .page{
     font-family: 'Inter', Arial, sans-serif;
-    min-width: ;width: 1100px;
+    min-width: 1100px;
     max-height: 1600px;
     margin: center;
     font-size: 16px;  
     line-height: 20px;
-}
-
-.serif-text {
-  font-family: 'Noto Serif', 'Times New Roman', serif;
-}
-
-.serif-text{
-    font-family: "noto serif", 'Times New Roman', Times, serif;
-    font-style: italic;
-    font-weight: 400;
 }
