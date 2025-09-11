@@ -9,10 +9,11 @@
     /* Tamanho da fonte */
     line-height: 20px;
     /* Altura da linha */
-    margin-left: 0;
+    /*margin-left: 0;
     /* Centraliza a página horizontalmente */
-    margin-right: 0;
+    /*rgin-right: 0;
     /* Centraliza a página horizontalmente */
+    margin: auto;
 }
 
 .header {
