@@ -64,15 +64,9 @@
 }
 
 .nav__link {
-    margin-right: 80px;
-    /* Define a margem direita como 80 pixels */
-    display: flex;
-    /* Define o display como flex */
-    column-gap: 20px;
-    /* Define o espaçamento entre as colunas como 20 pixels */
-    margin: 30px 80px 0 0;
-    /* Define a margem superior como 30 pixels e a margem direita como 80 pixels */
-
+color: #000;
+text-decoration: none;
+font-weight: bold;
 }
 
 .nav__links {
@@ -86,6 +80,10 @@
     /* Define a altura da linha como 20 pixels */
     display: flex;
     /* Define o display como flex */
+    list-style: none;
+    column-gap: 20px;
+    padding: 0;
+    margin: 30px 80px 0;
 }
 
 .header__content {
