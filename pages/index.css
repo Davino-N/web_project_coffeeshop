@@ -3,7 +3,7 @@
     /* Fonte padrão da página */
     min-width: 1100px;
     /* Largura mínima da página */
-    max-width: 1645px;
+    max-width: 1600px;
     /* Largura máxima da página */
     font-size: 16px;
     /* Tamanho da fonte */
@@ -13,7 +13,7 @@
     /* Centraliza a página horizontalmente */
     /*rgin-right: 0;
     /* Centraliza a página horizontalmente */
-    margin: auto;
+    margin: 0 auto;
 }
 
 .header {
