@@ -282,6 +282,7 @@
     display: flex;
     margin-top: 80px;
     justify-content: center;
+    border: none;
 }
 
 .recipes__videos-caption {
@@ -312,7 +313,8 @@
     line-height: 52px;
     display: flex;
     justify-content: center;
-    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 80px;
 }
 
 .reservation__form {
@@ -321,7 +323,6 @@
 }
 
 .reservation__form-fieldset {
-    padding: 80px 0 0 0;
     border: none;
 }
 
