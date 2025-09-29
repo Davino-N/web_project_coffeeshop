@@ -313,8 +313,7 @@
     line-height: 52px;
     display: flex;
     justify-content: center;
-    margin-top: 0px;
-    margin-bottom: 80px;
+    margin: 0 auto 80px;
 }
 
 .reservation__form {
@@ -333,7 +332,7 @@
     font-size: 16px;
     line-height: 20px;
     display: flex;
-    justify-items: center;
+    justify-content: space-between;
     flex-direction: column;
 }
 
@@ -358,7 +357,7 @@
     font-size: 16px;
     line-height: 20px;
     display: flex;
-    flex-direction: center;
+    flex-direction:column;
     border-radius: 4px;
     background-color: #2f80ed;
     width: 100%;
