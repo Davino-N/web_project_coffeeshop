@@ -1,0 +1,147 @@
+.header {
+    background-image: url("../images/background_header.svg");
+    /* Define a imagem de fundo */
+    display: flex;
+    /* Define o display como flex */
+    flex-direction: column;
+    /* Define a direção dos itens flexíveis como coluna */
+    background-size: cover;
+    /* Define o tamanho da imagem de fundo como cover */
+    background-repeat: no-repeat;
+    /* Define a repetição da imagem de fundo como no-repeat */
+    min-height: 720px;
+    /* Define a altura mínima do cabeçalho como 700 pixels */
+    max-height: 800px;
+    /* Define a altura máxima do cabeçalho como 800 pixels */
+    height: 100vh;
+    /* Define a altura do cabeçalho como 100% da altura da viewport */
+    position: relative;
+    box-sizing: border-box;
+    /* Define o box-sizing como border-box */
+    padding: 30px 80px 40px;
+    /* Define o padding do cabeçalho */
+    /*margin-right: -30px*/
+}
+.header__content {
+    margin-left: 80px;
+    /* Define a margem esquerda como 80 pixels */
+    display: flex;
+    /* Define o display como flex */
+    justify-content: space-between;
+    /* Distribui os itens com espaço entre eles */
+    height: 607px;
+}
+
+.header__title {
+    font-family: "Inter";
+    /* Define a fonte como "Noto Serif" */
+    font-weight: 500;
+    /* Define a espesura da fonte */
+    font-size: 58px;
+    /* Define o tamanho da fonte como 58 pixels */
+    line-height: 72px;
+    /* Define a altura da linha como 72 pixels */
+    margin: 183px 0 0;
+    /* Define a margem superior como 183 pixels */
+    font-style: normal;
+    /* Define o estilo da fonte como itálico */
+    max-width: 709px;
+    white-space: nowrap;
+
+}
+
+.header__span-accent {
+    font-family: "Noto Serif";
+    /* Define a fonte como "Noto Serif" */
+    display: block;
+    /* Define o display como bloco */
+    color: #2f80ed;
+    /* Define a cor do texto como azul (#2f80ed) */
+    font-style: italic;
+    /* Define o estilo da fonte como normal */
+    font-weight: 500;
+    /* Define a espesura da fonte como 500 (médio) */
+    font-size: 58px;
+    /* Define o tamanho da fonte como 58 pixels */
+    line-height: 72px;
+    /* Define a altura da linha como 72 pixels */
+    letter-spacing: -1px;
+    /* Define o espaçamento entre letras como -1 pixel */
+    /*margin-left: 80px; /* Define a margem esquerda como 80 pixels */
+
+}
+
+.header__description {
+    font-family: "Noto Serif";
+    /* Define a fonte como "Noto Serif" */
+    font-style: normal;
+    /* Define o estilo da fonte como normal */
+    font-weight: normal;
+    /* Define a espesura da fonte como normal */
+    font-size: 20px;
+    /* Define o tamanho da fonte como 20 pixels */
+    line-height: 30px;
+    /* Define a altura da linha como 28 pixels */
+    display: block;
+    /* Define o display como bloco */
+    margin: 28px 0 0;
+    /* Define a margem superior como 16 pixels */
+    max-width: 683px;
+    /* Define a largura máxima do parágrafo como 683 pixels */
+}
+
+.header__image {
+    position: absolute;
+    display: flex;
+    /* Define o display como flex */
+    max-width: 646px;
+    /* Define a largura máxima da imagem como 636 pixels */
+    height: 568px;
+    /* Define a altura da imagem como 568 pixels */
+    top: 124px;
+    /* Define a margem superior como 124 pixels */
+    right: 5px;
+    /* Define a margem esquerda como 5 pixels */
+}
+
+.header__footer {
+    display: flex;
+    /* Define o display como flex */
+    justify-content: space-between;
+    /* Distribui os itens com espaço entre eles */
+    font-style: normal;
+    /* Define o estilo da fonte como normal */
+    font-weight: 500;
+    /* Define a espesura da fonte como 500 (médio) */
+    font-size: 16px;
+    /* Define o tamanho da fonte como 20 pixels */
+    line-height: 20px;
+    /* Define a altura da linha como 20 pixels */
+    color: #838383;
+    /* Define a cor do texto como cinza (#838383) */
+    margin-bottom: 40px;
+    /* Define a margem inferior como 40 pixels */
+    align-items: flex-end;
+    /* Alinha os itens ao final do eixo cruzado */
+    z-index: 10;
+    margin-top: auto;
+
+
+}
+
+.header__paragraph {
+    display: flex;
+    /* Define o display como flex */
+
+    /* Define a margem esquerda como 80 pixels */
+    list-style-type: none;
+    /* Remove os marcadores da lista */
+    display: block;
+    /* Define o display como bloco */
+    list-style: none;
+    /* Remove os pontos da lista */
+    margin: 0;
+
+    /* Define a margem esquerda como 80 pixels */
+
+}

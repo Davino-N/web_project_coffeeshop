@@ -1,0 +1,50 @@
+.nav {
+    height: 80px;
+    /* Define a altura da barra de navegação como 80 pixels */
+    display: flex;
+    /* Define o display como flex */
+    justify-content: space-between;
+    /* Distribui os itens com espaço entre eles */
+    ;
+}
+
+.nav__logo {
+    position: relative;
+    /* Define a posição como relativa */
+    height: 39px;
+    /* Define a altura da imagem como 80 pixels */
+    width: 105px;
+    /* Define a largura da imagem como 58 pixels */
+    display: flex;
+    /* Define o display como flex */
+    /* Define a margem superior como 30 pixels e a margem esquerda como 80 pixels */
+    left: -50px;
+}
+
+.nav__link {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav__link:hover {
+    color: #2F80ED;
+}
+
+
+.nav__links {
+    font-style: normal;
+    /* Define o estilo da fonte como normal */
+    font-weight: 500;
+    /* Define a espesura  da fonte como 500 (médio) */
+    font-size: 16px;
+    /* Define o tamanho da fonte como 61 pixels */
+    line-height: 20px;
+    /* Define a altura da linha como 20 pixels */
+    display: flex;
+    /* Define o display como flex */
+    list-style: none;
+    column-gap: 20px;
+    padding: 0;
+
+}
