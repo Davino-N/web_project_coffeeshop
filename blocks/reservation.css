@@ -21,3 +21,9 @@
     justify-content: center;
     margin: 0 auto 80px;
 }
+
+
+.reservation__form {
+    margin: 0 auto;
+    max-width: 385px;
+}
